@@ -27,7 +27,7 @@ if page == "Introduction":
   
 def convert_df(df):
     return df.to_csv().encode('utf-8')
-  csv = convert_df(Steam):
+  csv = convert_df(Steam)
   st.download_button(
     label="Download dataset as CSV",
     data=csv,
