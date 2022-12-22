@@ -24,7 +24,7 @@ if page == "Introduction":
   st.markdown('Created By: ')
   st.write('Yousuf Ali Alshanfari - 46S162727')
   st.write('Abdullah Ali Alshanfari - 42S163276')
- def convert_df(df):
+  def convert_df(df):
     return df.to_csv().encode('utf-8')
   csv = convert_df(Steam)
   st.download_button(
