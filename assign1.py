@@ -22,10 +22,8 @@ if page == "Introduction":
   st.markdown('Findings')
   st.write('The games counter strike and half time are the most played of all time and have the highest recommendations numbers.')
   st.markdown('Created By: ')
-
-
-    st.write('Yousuf Ali Alshanfari - 46S162727')
-    st.write('Abdullah Ali Alshanfari - 42S163276')
+  st.write('Yousuf Ali Alshanfari - 46S162727')
+  st.write('Abdullah Ali Alshanfari - 42S163276')
 def convert_df(df):
     return df.to_csv().encode('utf-8')
   csv = convert_df(Steam)
